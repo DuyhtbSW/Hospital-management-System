@@ -1,0 +1,17 @@
+C:\Users\Admin\Desktop\.Net\Hospital\hospitals.Utilities\bin\Debug\net7.0\hospitals.Utilities.deps.json
+C:\Users\Admin\Desktop\.Net\Hospital\hospitals.Utilities\bin\Debug\net7.0\hospitals.Utilities.dll
+C:\Users\Admin\Desktop\.Net\Hospital\hospitals.Utilities\bin\Debug\net7.0\hospitals.Utilities.pdb
+C:\Users\Admin\Desktop\.Net\Hospital\hospitals.Utilities\bin\Debug\net7.0\Hospital.Models.dll
+C:\Users\Admin\Desktop\.Net\Hospital\hospitals.Utilities\bin\Debug\net7.0\Hospital.Repositories.dll
+C:\Users\Admin\Desktop\.Net\Hospital\hospitals.Utilities\bin\Debug\net7.0\Hospital.Repositories.pdb
+C:\Users\Admin\Desktop\.Net\Hospital\hospitals.Utilities\bin\Debug\net7.0\Hospital.Models.pdb
+C:\Users\Admin\Desktop\.Net\Hospital\hospitals.Utilities\obj\Debug\net7.0\hospitals.Utilities.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\.Net\Hospital\hospitals.Utilities\obj\Debug\net7.0\hospitals.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\.Net\Hospital\hospitals.Utilities\obj\Debug\net7.0\hospitals.Utilities.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\.Net\Hospital\hospitals.Utilities\obj\Debug\net7.0\hospitals.Utilities.AssemblyInfo.cs
+C:\Users\Admin\Desktop\.Net\Hospital\hospitals.Utilities\obj\Debug\net7.0\hospitals.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\.Net\Hospital\hospitals.Utilities\obj\Debug\net7.0\hospital.1CF31134.Up2Date
+C:\Users\Admin\Desktop\.Net\Hospital\hospitals.Utilities\obj\Debug\net7.0\hospitals.Utilities.dll
+C:\Users\Admin\Desktop\.Net\Hospital\hospitals.Utilities\obj\Debug\net7.0\refint\hospitals.Utilities.dll
+C:\Users\Admin\Desktop\.Net\Hospital\hospitals.Utilities\obj\Debug\net7.0\hospitals.Utilities.pdb
+C:\Users\Admin\Desktop\.Net\Hospital\hospitals.Utilities\obj\Debug\net7.0\ref\hospitals.Utilities.dll
