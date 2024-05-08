@@ -19,7 +19,7 @@ namespace Hospital.Models
         public int NoOfDays { get; set; }
         public int NursingCharge { get; set; }
         public int LabCharge { get; set; }
-        public decimal Advance {  get; set; }
-        public decimal TotalBill {  get; set; } 
+        public decimal Advance { get; set; }
+        public decimal TotalBill { get; set; }
     }
 }

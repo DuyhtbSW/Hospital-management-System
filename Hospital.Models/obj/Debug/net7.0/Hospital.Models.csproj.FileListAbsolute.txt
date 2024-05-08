@@ -6,6 +6,7 @@ C:\Users\Admin\Desktop\.Net\Hospital\Hospital.Models\obj\Debug\net7.0\Hospital.M
 C:\Users\Admin\Desktop\.Net\Hospital\Hospital.Models\obj\Debug\net7.0\Hospital.Models.AssemblyInfoInputs.cache
 C:\Users\Admin\Desktop\.Net\Hospital\Hospital.Models\obj\Debug\net7.0\Hospital.Models.AssemblyInfo.cs
 C:\Users\Admin\Desktop\.Net\Hospital\Hospital.Models\obj\Debug\net7.0\Hospital.Models.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\.Net\Hospital\Hospital.Models\obj\Debug\net7.0\Hospital.Models.sourcelink.json
 C:\Users\Admin\Desktop\.Net\Hospital\Hospital.Models\obj\Debug\net7.0\Hospital.Models.dll
 C:\Users\Admin\Desktop\.Net\Hospital\Hospital.Models\obj\Debug\net7.0\refint\Hospital.Models.dll
 C:\Users\Admin\Desktop\.Net\Hospital\Hospital.Models\obj\Debug\net7.0\Hospital.Models.pdb

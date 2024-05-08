@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Hospital.Models
 {
-    public class ApplicationUser : IdentityUser 
+    public class ApplicationUser : IdentityUser
     {
         public string Name { get; set; }
         public Gender Gender { get; set; }

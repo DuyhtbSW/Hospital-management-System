@@ -12,12 +12,12 @@ namespace Hospital.Repositories
 {
     public class ApplicationDbContext : IdentityDbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options):base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-            
+
         }
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
-        public DbSet<Appointment> Appointments{ get; set; }
+        public DbSet<Appointment> Appointments { get; set; }
         public DbSet<Bill> Bills { get; set; }
         public DbSet<Contact> Contacts { get; set; }
         public DbSet<Department> Departments { get; set; }
@@ -30,7 +30,7 @@ namespace Hospital.Repositories
         public DbSet<PrescribedMedicine> PrescribedMedicines { get; set; }
         public DbSet<Room> Rooms { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }
-        public DbSet<TestPrice> TestPrices { get; set; } 
+        public DbSet<TestPrice> TestPrices { get; set; }
 
     }
 }

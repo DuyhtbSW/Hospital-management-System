@@ -18,7 +18,7 @@ namespace Hospital.ViewModels
         public string PinCode { get; set; }
         public string Country { get; set; }
         public HospitalInfoViewModel() { }
-        public HospitalInfoViewModel(HospitalInfo model )
+        public HospitalInfoViewModel(HospitalInfo model)
         {
             Id = model.Id;
             Name = model.Name;
@@ -29,7 +29,8 @@ namespace Hospital.ViewModels
         }
         public HospitalInfo ConvertViewModel(HospitalInfoViewModel model)
         {
-            return new  HospitalInfo{
+            return new HospitalInfo
+            {
                 Id = model.Id,
                 Name = model.Name,
                 Type = model.Type,

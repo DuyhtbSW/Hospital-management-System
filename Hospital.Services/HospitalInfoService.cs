@@ -14,8 +14,9 @@ namespace Hospital.Services
     public class HospitalInfoService : IHospitalInfo
     {
         private IUnitOfWork _unitOfWork;
-        private HospitalInfoService(IUnitOfWork unitOfWork) { 
-        _unitOfWork = unitOfWork;
+        private HospitalInfoService(IUnitOfWork unitOfWork)
+        {
+            _unitOfWork = unitOfWork;
         }
 
         public void DeleteHospitalInfo(int id)
@@ -37,7 +38,7 @@ namespace Hospital.Services
                 totalCount = _unitOfWork.GenericRepository<HospitalInfo>().GetAll().ToList().Count;
                 vmList = ConvertModelToViewModelList(modelList);
             }
-            catch (Exception )
+            catch (Exception)
             {
                 throw;
             }
@@ -80,7 +81,7 @@ namespace Hospital.Services
 
         private List<HospitalInfoViewModel> ConvertModelToViewModelList(List<HospitalInfo> modelList)
         {
-            return modelList.Select(x=> new HospitalInfoViewModel(x)).ToList();
+            return modelList.Select(x => new HospitalInfoViewModel(x)).ToList();
         }
     }
 }
