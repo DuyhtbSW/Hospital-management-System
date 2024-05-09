@@ -26,8 +26,4 @@
 	  <ProjectReference Include="..\Hospital.ViewModels\Hospital.ViewModels.csproj" />
 	  <ProjectReference Include="..\hospitals.Utilities\hospitals.Utilities.csproj" />
 	</ItemGroup>
-	<ItemGroup>
-	  <Folder Include="Areas\Doctor\Controllers\" />
-	  <Folder Include="Areas\Doctor\Views\" />
-	</ItemGroup>
 </Project>

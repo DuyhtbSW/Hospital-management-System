@@ -47,7 +47,28 @@ namespace Hospital.Services
 
         public PagedResult<ApplicationUserViewModel> GetAllDoctor(int PageNumber, int PageSize)
         {
-            throw new NotImplementedException();
+            var vm = new ApplicationUserViewModel();
+            int totalCount;
+            List<ApplicationUserViewModel> vmList = new List<ApplicationUserViewModel>();
+            try
+            {
+                int ExcludeRecords = (PageSize * PageNumber) - PageSize;
+                var modelList = _unitOfWork.GenericRepository<ApplicationUser>().GetAll(x => x.IsDoctor==true).Skip(ExcludeRecords).Take(PageSize).ToList();
+                totalCount = _unitOfWork.GenericRepository<ApplicationUser>().GetAll(x => x.IsDoctor == true).ToList().Count;
+                vmList = ConvertModelToViewModelList(modelList);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            var result = new PagedResult<ApplicationUserViewModel>()
+            {
+                Data = vmList,
+                TotalItems = totalCount,
+                PageNumber = PageNumber,
+                PageSize = PageSize
+            };
+            return result;
         }
 
         public PagedResult<ApplicationUserViewModel> GetAllPatient(int PageNumber, int PageSize)

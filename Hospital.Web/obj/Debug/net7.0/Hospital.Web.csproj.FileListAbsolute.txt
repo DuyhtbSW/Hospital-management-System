@@ -301,3 +301,5 @@ C:\Users\Admin\Desktop\.Net\Hospital\Hospital.Web\bin\Debug\net7.0\Hospital.Serv
 C:\Users\Admin\Desktop\.Net\Hospital\Hospital.Web\bin\Debug\net7.0\Hospital.ViewModels.pdb
 C:\Users\Admin\Desktop\.Net\Hospital\Hospital.Web\bin\Debug\net7.0\cloudscribe.Pagination.Models.dll
 C:\Users\Admin\Desktop\.Net\Hospital\Hospital.Web\bin\Debug\net7.0\cloudscribe.Web.Pagination.dll
+C:\Users\Admin\Desktop\.Net\Hospital\Hospital.Web\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Admin\Desktop\.Net\Hospital\Hospital.Web\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
