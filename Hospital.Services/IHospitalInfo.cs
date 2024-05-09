@@ -12,6 +12,7 @@ namespace Hospital.Services
     public interface IHospitalInfo
     {
         PagedResult<HospitalInfoViewModel> GetAll(int pageNumber, int PageSize);
+        PagedResult<HospitalInfoViewModel> GetAll();
         HospitalInfoViewModel GetHospitalById(int HospitalId);
         void UpdateHospitalInfo(HospitalInfoViewModel hospitalInfo);
         void InsertHospitalInfo(HospitalInfoViewModel hospitalInfo);

@@ -295,3 +295,9 @@ C:\Users\Admin\Desktop\.Net\Hospital\Hospital.Web\obj\Debug\net7.0\refint\Hospit
 C:\Users\Admin\Desktop\.Net\Hospital\Hospital.Web\obj\Debug\net7.0\Hospital.Web.pdb
 C:\Users\Admin\Desktop\.Net\Hospital\Hospital.Web\obj\Debug\net7.0\Hospital.Web.genruntimeconfig.cache
 C:\Users\Admin\Desktop\.Net\Hospital\Hospital.Web\obj\Debug\net7.0\ref\Hospital.Web.dll
+C:\Users\Admin\Desktop\.Net\Hospital\Hospital.Web\bin\Debug\net7.0\Hospital.Services.dll
+C:\Users\Admin\Desktop\.Net\Hospital\Hospital.Web\bin\Debug\net7.0\Hospital.ViewModels.dll
+C:\Users\Admin\Desktop\.Net\Hospital\Hospital.Web\bin\Debug\net7.0\Hospital.Services.pdb
+C:\Users\Admin\Desktop\.Net\Hospital\Hospital.Web\bin\Debug\net7.0\Hospital.ViewModels.pdb
+C:\Users\Admin\Desktop\.Net\Hospital\Hospital.Web\bin\Debug\net7.0\cloudscribe.Pagination.Models.dll
+C:\Users\Admin\Desktop\.Net\Hospital\Hospital.Web\bin\Debug\net7.0\cloudscribe.Web.Pagination.dll

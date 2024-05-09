@@ -14,7 +14,7 @@ namespace Hospital.Services
     public class HospitalInfoService : IHospitalInfo
     {
         private IUnitOfWork _unitOfWork;
-        private HospitalInfoService(IUnitOfWork unitOfWork)
+        public HospitalInfoService(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }
@@ -45,12 +45,41 @@ namespace Hospital.Services
             var result = new PagedResult<HospitalInfoViewModel>()
             {
                 Data = vmList,
-                ToltalItems = totalCount,
+                TotalItems = totalCount,
                 PageNumber = pageNumber,
                 PageSize = pageSize
             };
             return result;
         }
+
+        public PagedResult<HospitalInfoViewModel> GetAll()
+        {
+            var vmList = new List<HospitalInfoViewModel>();
+            int totalCount = 0;
+
+            try
+            {
+                var modelList = _unitOfWork.GenericRepository<HospitalInfo>().GetAll().ToList();
+                totalCount = modelList.Count;
+                vmList = ConvertModelToViewModelList(modelList);
+            }
+            catch (Exception ex)
+            {
+                // Xử lý ngoại lệ
+                throw ex;
+            }
+
+            var result = new PagedResult<HospitalInfoViewModel>()
+            {
+                Data = vmList,
+                TotalItems = totalCount,
+                PageNumber = 1, // Đặt trang mặc định là 1 vì không có phân trang
+                PageSize = totalCount // Số lượng bản ghi trên mỗi trang là tổng số bản ghi
+            };
+
+            return result;
+        }
+
 
         public HospitalInfoViewModel GetHospitalById(int HospitalId)
         {

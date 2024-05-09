@@ -5,6 +5,34 @@
       "PackagePath": "staticwebassets\\Hospital.Web.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Admin\\Desktop\\.Net\\Hospital\\Hospital.Web\\wwwroot\\Images\\0a25b48b-caa4-4730-a1c3-b5b9f6552810-doctor.jpg",
+      "PackagePath": "staticwebassets\\Images\\0a25b48b-caa4-4730-a1c3-b5b9f6552810-doctor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\.Net\\Hospital\\Hospital.Web\\wwwroot\\Images\\36aa39ea-fe05-4ffd-b4f2-0bd8a1dff148-doctor.jpg",
+      "PackagePath": "staticwebassets\\Images\\36aa39ea-fe05-4ffd-b4f2-0bd8a1dff148-doctor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\.Net\\Hospital\\Hospital.Web\\wwwroot\\Images\\3ff9ccd7-5046-4cf0-b152-9b7d570bb186-womandoctor.png",
+      "PackagePath": "staticwebassets\\Images\\3ff9ccd7-5046-4cf0-b152-9b7d570bb186-womandoctor.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\.Net\\Hospital\\Hospital.Web\\wwwroot\\Images\\505ace89-b6d1-4bc1-b9f5-e06acf203816-Screenshot 2024-05-08 182902.png",
+      "PackagePath": "staticwebassets\\Images\\505ace89-b6d1-4bc1-b9f5-e06acf203816-Screenshot 2024-05-08 182902.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\.Net\\Hospital\\Hospital.Web\\wwwroot\\Images\\516f6e00-0fea-4f86-bf1c-5fe8f79bd10a-doctor.jpg",
+      "PackagePath": "staticwebassets\\Images\\516f6e00-0fea-4f86-bf1c-5fe8f79bd10a-doctor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\.Net\\Hospital\\Hospital.Web\\wwwroot\\Images\\79066a68-c6fa-4bc6-89f9-dd727abdf153-Screenshot 2024-05-08 182902.png",
+      "PackagePath": "staticwebassets\\Images\\79066a68-c6fa-4bc6-89f9-dd727abdf153-Screenshot 2024-05-08 182902.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\.Net\\Hospital\\Hospital.Web\\wwwroot\\Images\\doctor.jpg",
+      "PackagePath": "staticwebassets\\Images\\doctor.jpg"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Desktop\\.Net\\Hospital\\Hospital.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

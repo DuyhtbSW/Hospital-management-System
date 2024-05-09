@@ -195,6 +195,7 @@ namespace Hospital.Repositories.Migrations
                 column: "NormalizedUserName",
                 unique: true,
                 filter: "[NormalizedUserName] IS NOT NULL");
+
         }
 
         /// <inheritdoc />

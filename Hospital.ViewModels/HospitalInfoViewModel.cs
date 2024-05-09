@@ -2,6 +2,7 @@
 using Hospital.Models;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,7 +17,9 @@ namespace Hospital.ViewModels
         public string Type { get; set; }
         public string City { get; set; }
         public string PinCode { get; set; }
+       
         public string Country { get; set; }
+     
         public HospitalInfoViewModel() { }
         public HospitalInfoViewModel(HospitalInfo model)
         {
@@ -39,5 +42,6 @@ namespace Hospital.ViewModels
                 Country = model.Country
             };
         }
+
     }
 }
